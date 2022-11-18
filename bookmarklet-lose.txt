@@ -1,0 +1,6 @@
+javascript : (function (d, e) {
+    const els = e.querySelectorAll(".eventBox.unseated");
+    els.length && els.forEach(function (el) {
+        el.style.display = 'none'
+    })
+})(window, document)
